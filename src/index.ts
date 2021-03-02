@@ -20,6 +20,5 @@ export const returnSKUStock = async (sku: string) => {
         sku,
         qty: filteredStock.stock + skuNetTransaction.qty
     }
-    console.log(result)
     return result
 }
